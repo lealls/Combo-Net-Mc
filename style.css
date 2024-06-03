@@ -16,7 +16,84 @@ body {
 }
 
 .principal {
-    background-image: ;
+    background-image: url(fotofundo.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}   
+
+.container_botao{secundario
+    background-color: var(--vermelho-secundario);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--preto-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}secundario
+
+.botao_secundario{
+    background-color:transparent;
+    border: 2pxsolid var(--cor-de-fundo)
+}
+
+.container_aviso {
+    font-size: 12px;
+    color: var(orangered); 
+}
+
+.container_titulo {
+    font-size: 28px;
+    font-weight: 700;
+
+}
+
+.botao_imgem{
+    margin: 1em 0 2em 0;
+}
+
+.container_caixa {
+    margin: 0 6em;
+}
+
+.secundario_imagem {
+    width: 80%;
+} 
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+
+}
+
+.descricao_titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--vermelho-secundario);
+    margin-bottom: 0.1em;
+
+}
+
+.descricao_texto {
+    color: var(--preto-principal);
+}
+
+.secundario_botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+.container_descricao {
+    padding: 2em;
+
+}
+
+.dispositivos_lista {
+    sdisplay: ;
+    
