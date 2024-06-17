@@ -29,15 +29,15 @@ body {
     grid-template-columns: 50% 50%;
 }   
 
-.container_botao{secundario
-    background-color: var(--vermelho-secundario);
+.container_botao{
+    background-color:var(--vermelho-secundario);
     border-radius: 5px;
     padding: 1em;
     color: var(--preto-principal);
     display: block;
     text-decoration: none;
     margin-bottom: 1em;
-}secundario
+}
 
 .botao_secundario{
     background-color:transparent;
@@ -95,5 +95,51 @@ body {
 }
 
 .dispositivos_lista {
-    sdisplay: ;
-    
+ display: flex;
+ justify-content: center;
+ list-style-type: none;
+ margin: 5em 0;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos_titulo {
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.lista_item{
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+.lista_item{ 
+
+}
+
+.rodape{
+    text-align:center;
+    margin:5em 3em;
+}
+.rodape_lista{
+display: flex;
+justify-content: center;
+list-style-type: none;
+margin-top: 1em;
+}
+.Lista_limk a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+}
+.rodape_text{ 
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+
+}
+.Lista_limk a:hover {
+     color: var(--botao-azul);
+}
